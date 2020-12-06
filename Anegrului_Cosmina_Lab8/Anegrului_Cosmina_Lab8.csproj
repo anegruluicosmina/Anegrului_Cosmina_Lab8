@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20201203142606_BookCategories.cs" />
+    <Compile Remove="Migrations\20201203142606_BookCategories.Designer.cs" />
     <Compile Remove="Pages\Index.cshtml.cs" />
   </ItemGroup>
 
